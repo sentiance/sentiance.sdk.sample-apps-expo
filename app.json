@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "sentiance.sdk.sample-apps-expo",
+    "slug": "sentiance.sdk.sample-apps-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "sentiancesdksampleappsexpo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sentiance.sdk.sampleappsexpo",
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses your location to provide insights.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to provide insights.",
+        "NSLocationAlwaysUsageDescription": "This app uses your location to provide insights.",
+        "NSMotionUsageDescription": "This app uses motion data to detect your transportation mode."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sentiance.sdk.sampleappsexpo"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "@sentiance-react-native/core",
+      [
+        "react-native-permissions",
+        {
+          "iosPermissions": [
+            "LocationAlways",
+            "LocationWhenInUse",
+            "Motion",
+            "LocationAccuracy"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

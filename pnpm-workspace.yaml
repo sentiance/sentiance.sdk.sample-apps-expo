@@ -1,0 +1,17 @@
+minimumReleaseAge: 21600
+
+minimumReleaseAgeExclude:
+  - '@sentiance-react-native/*'
+
+nodeLinker: hoisted
+
+onlyBuiltDependencies:
+  - unrs-resolver
+
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - semver
+  - react-native-worklets
+  - eslint-import-resolver-typescript
+  - ua-parser-js
