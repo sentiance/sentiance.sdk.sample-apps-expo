@@ -4,7 +4,7 @@ This sample application demonstrates how to integrate the [Sentiance React Nativ
 
 ## What's covered
 
-- SDK user creation with [user linking](https://docs.sentiance.com/important-topics/user-linking-2.0) via authentication codes
+- SDK user creation with [user linking](https://docs.sentiance.com/important-topics/sdk/appendix/user-linking) via authentication codes
 - Location and motion permission management
 - Real-time SDK status monitoring (init state, detection status)
 - SDK reset flow
