@@ -2,6 +2,8 @@
 
 This sample application demonstrates how to integrate the [Sentiance React Native SDK](https://github.com/sentiance/react-native-sentiance) in an [Expo](https://expo.dev) mobile application.
 
+![](images/overview.png)
+
 ## What's covered
 
 - SDK user creation with [user linking](https://docs.sentiance.com/important-topics/sdk/appendix/user-linking) via authentication codes
