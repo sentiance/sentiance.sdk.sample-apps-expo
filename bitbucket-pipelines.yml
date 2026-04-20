@@ -1,0 +1,12 @@
+image: atlassian/default-image:4
+
+clone:
+  depth: full
+
+pipelines:
+  default:
+    - step:
+        name: Mirror to GitHub
+        script:
+          - git symbolic-ref -d refs/remotes/origin/HEAD 2>/dev/null || true
+          - git push --force --prune git@github.com:sentiance/sentiance.sdk.sample-apps-expo.git "refs/remotes/origin/*:refs/heads/*" "refs/tags/*:refs/tags/*"
