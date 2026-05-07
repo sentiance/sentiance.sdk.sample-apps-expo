@@ -24,8 +24,8 @@ importers:
         specifier: ^7.1.8
         version: 7.2.0(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)
       '@sentiance-react-native/core':
-        specifier: 6.25.0-alpha.13
-        version: 6.25.0-alpha.13(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))
+        specifier: 6.25.1
+        version: 6.25.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))
       axios:
         specifier: ^1.13.6
         version: 1.13.6
@@ -1227,8 +1227,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@sentiance-react-native/core@6.25.0-alpha.13':
-    resolution: {integrity: sha512-eXQwgDrwfV8ssCpjcVGLYXUBbK1WilaQw6191kwk3MUIwoyMO2FWliiSCK0uaU1DXJP547jTGu0H4og/Wc0taA==}
+  '@sentiance-react-native/core@6.25.1':
+    resolution: {integrity: sha512-3iY2izH/Znu6DpvWI00pXqkG2PzEpg7PE11GLvMHy9Un4yMWFEZfAJD0uoY4Tp5V0y8w+juse0Se0G8HXv1/Cg==}
     peerDependencies:
       expo: '>=53.0.0'
       react-native: '>=0.60'
@@ -5758,7 +5758,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@sentiance-react-native/core@6.25.0-alpha.13(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))':
+  '@sentiance-react-native/core@6.25.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))':
     dependencies:
       react-native: 0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0)
     optionalDependencies:
