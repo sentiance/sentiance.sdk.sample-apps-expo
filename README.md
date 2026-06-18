@@ -6,12 +6,22 @@ This sample application demonstrates how to integrate the [Sentiance React Nativ
 
 ## What's covered
 
+- Asynchronous SDK initialization
 - SDK user creation with [user linking](https://docs.sentiance.com/important-topics/sdk/appendix/user-linking) via authentication codes
 - Location and motion permission management
 - Real-time SDK status monitoring (init state, detection status)
 - SDK reset flow
 
-The key integration point is `handleCreateUser` in `src/app/index.tsx`.
+The key integration points are:
+
+- `src/app/index.tsx` — the launch route, which awaits `SentianceCore.ensureInitialized()` before showing the app and surfaces initialization failures with a retry.
+- `handleCreateUser` in `src/app/home.tsx` — Sentiance user creation.
+
+## Asynchronous initialization
+
+The SDK is initialized asynchronously, keeping app startup responsive.
+In an Expo app there is no native initialization code to write. The `@sentiance-react-native/core` config plugin (listed under `plugins` in `app.json`) takes care of it for you.
+The JavaScript layer never triggers initialization itself; it only awaits the result.
 
 ## Prerequisites
 

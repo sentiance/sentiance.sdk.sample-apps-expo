@@ -140,7 +140,7 @@ export default function DashboardScreen() {
                 type="default"
                 onClick={async () => {
                   await SentianceCore.reset();
-                  router.replace('/');
+                  router.replace('/home');
                 }}
                 text="Reset SDK"
               />

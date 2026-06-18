@@ -24,8 +24,8 @@ importers:
         specifier: ^7.1.8
         version: 7.2.0(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))(react@19.1.0)
       '@sentiance-react-native/core':
-        specifier: 6.25.1
-        version: 6.25.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))
+        specifier: 6.27.0-rc.1
+        version: 6.27.0-rc.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))
       axios:
         specifier: ^1.13.6
         version: 1.13.6
@@ -1227,10 +1227,10 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@sentiance-react-native/core@6.25.1':
-    resolution: {integrity: sha512-3iY2izH/Znu6DpvWI00pXqkG2PzEpg7PE11GLvMHy9Un4yMWFEZfAJD0uoY4Tp5V0y8w+juse0Se0G8HXv1/Cg==}
+  '@sentiance-react-native/core@6.27.0-rc.1':
+    resolution: {integrity: sha512-b5dwrAwMoIz/gNyItcq8eY42tXv4YudWmpd8wvFjtSXnVTk3op+dx1sSwDLfv0UrvzYDkgF+0nxKB5gAbrDwnA==}
     peerDependencies:
-      expo: '>=53.0.0'
+      expo: '>=54.0.0'
       react-native: '>=0.60'
     peerDependenciesMeta:
       expo:
@@ -1360,6 +1360,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     resolution: {integrity: sha512-ppLRUgHVaGRWUx0R0Ut06Mjo9gBaBkg3v/8AxusGLhsIotbBLuRk51rAzqLC8gq6NyyAojEXglNjzf6R948DNw==}
@@ -5758,7 +5759,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@sentiance-react-native/core@6.25.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))':
+  '@sentiance-react-native/core@6.27.0-rc.1(expo@54.0.33)(react-native@0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0))':
     dependencies:
       react-native: 0.81.5(@babel/core@7.29.0)(@types/react@19.1.17)(react@19.1.0)
     optionalDependencies:

@@ -7,6 +7,7 @@ export default function RootLayout() {
       <SafeAreaView style={{ flex: 1, backgroundColor: "#000000" }} edges={["top"]}>
         <Stack screenOptions={{ headerShown: false }}>
           <Stack.Screen name="index" />
+          <Stack.Screen name="home" />
           <Stack.Screen name="dashboard" />
         </Stack>
       </SafeAreaView>
